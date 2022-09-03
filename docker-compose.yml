@@ -1,0 +1,9 @@
+version: "3"
+
+services: 
+
+    queue:
+        image: redis
+        ports:
+            - 6379:6379
+        container_name: queue_with_redis

@@ -1,0 +1,22 @@
+{
+  "name": "application-create-clips-of-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "job:dev": "nodemon ./src/jobs/index",
+    "start:dev": "nodemon ./src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.8.5",
+    "express": "^4.18.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
