@@ -10,6 +10,7 @@ The project is simple solution to create clips of video, like twich.tv and youtu
 - Execute command **docker-compose up -d** to run redis in container docker.
 - Execute command **npm run start:dev** to run http server.
 - Execute command **npm run job:dev** to run jobs to handler process generate clips of video.
+- Import **Insomnia_2022-09-03.json** file on Insomnia tools
 
 # Technologies:
 
