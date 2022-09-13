@@ -4,6 +4,7 @@ The project is simple solution to create clips of video, like twich.tv and youtu
 
 # Instructions to run the project
 
+- Install ffmpeg your machine
 - Clone project
 - Create directory **storage/clips** case not exist in root the project.
 - Execute command **npm install** to install modules.
